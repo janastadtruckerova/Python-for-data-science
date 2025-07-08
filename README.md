@@ -97,7 +97,8 @@ Tento projekt je licencovaný pod licenciou MIT. Viac informácií nájdete v s�
 Ak máte akékoľvek otázky, návrhy alebo sa chcete spojiť:
 
 * **GitHub Issues:** Použite sekciu Issues tohto repozitára.
-* **LinkedIn:** [Odkaz na váš LinkedIn profil] (voliteľné)
+* **LinkedIn:** https://www.linkedin.com/in/jana-stadtruckerov%C3%A1-7801779b/
+  
 
 ---
 
