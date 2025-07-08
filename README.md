@@ -13,10 +13,10 @@ Tento repoozitár slúži ako **praktická kolekcia dátových projektov a príp
 
 Každý projekt v tomto repozitári je samostatná štúdia, ktorá zvyčajne obsahuje:
 
-* **Jupyter Notebook(y):** Podrobný kód s komentármi, vysvetleniami a výsledkami.
-* **Dátové súbory:** Vzorky dát použité v projekte (ak sú malé a možno ich zdieľať, inak odkaz na zdroj).
-* **Stručný popis:** Úvod k projektu, cieľ, použité metódy a kľúčové závery.
-* **Vizualizácie:** Grafy a iné vizuálne výstupy analýzy sú súčasťou notebooku.
+* **Google colab Notebook(y):** Podrobný kód s komentármi, vysvetleniami a výsledkami -
+* **Dátové súbory:** linky na datesety alebo csv súbory použité v projektoch
+* **Stručný popis:** Stručný popis projektu.
+* **Vizualizácie:** Grafy a iné vizuálne výstupy analýzy sú súčasťou notebookov.
 
 ---
 
@@ -26,7 +26,7 @@ Tu je zoznam aktuálnych  dátových projektov v tomto repozitári:
 # 📊 Analýza vplyvu AI a automatizácie na pracovné pozície
 
 Tento projekt sa zameriava na analýzu vplyvu AI a automatizácie na pracovné pozície, odvetvia a zručnosti. Identifikuje pozície, ktoré sú najviac ohrozené automatizáciou.  Použitý dataset:https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
-
+Google colab notebook projektu. AI job market.ippymb
 *(Poznámka: Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi.)*
 
 ---
