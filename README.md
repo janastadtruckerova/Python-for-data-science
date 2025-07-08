@@ -23,8 +23,9 @@ Každý projekt v tomto repozitári je samostatná štúdia, ktorá zvyčajne ob
 ## Prehľad projektov (Príklady) ✨
 
 Tu je zoznam aktuálnych  dátových projektov v tomto repozitári:
+# 📊 Analýza vplyvu AI a automatizácie na pracovné pozície
 
-
+Tento projekt sa zameriava na analýzu vplyvu AI a automatizácie na pracovné pozície, odvetvia a zručnosti. Identifikuje pozície, ktoré sú najviac ohrozené automatizáciou.  Použitý dataset:https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
 
 *(Poznámka: Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi.)*
 
@@ -35,10 +36,10 @@ Tu je zoznam aktuálnych  dátových projektov v tomto repozitári:
 V týchto projektoch sa primárne využívajú nasledujúce nástroje a knižnice:
 
 * **Python 3.x**
-* **Jupyter Notebook / JupyterLab**
+* **Google colab**
 * **Pandas:** Manipulácia a analýza dát.
 * **NumPy:** Numerické výpočty.
-* **Matplotlib / Seaborn:** Vizualizácia dát.
+* **MSeaborn:** Vizualizácia dát.
 * **Scikit-learn:** Strojové učenie.
 * **... a ďalšie špecifické pre jednotlivé projekty!**
 
