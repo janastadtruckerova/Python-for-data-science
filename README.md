@@ -23,24 +23,15 @@ Každý projekt v tomto repozitári je samostatná štúdia, ktorá zvyčajne ob
 ## Prehľad projektov (Príklady) ✨
 
 Tu je zoznam aktuálnych  dátových projektov v tomto repozitári:
-# 📊 Analýza vplyvu AI a automatizácie na pracovné pozície
+
+## 📊 Analýza vplyvu AI a automatizácie na pracovné pozície
+
 
 Tento projekt sa zameriava na analýzu vplyvu AI a automatizácie na pracovné pozície, odvetvia a zručnosti. Identifikuje pozície, ktoré sú najviac ohrozené automatizáciou.  Použitý dataset:https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
 Google colab notebook projektu. AI job market.ippymb
 *(Poznámka: Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi.)*
 
-## Projekty
-
-Tu nájdete prehľad mojich dátových projektov a analýz.
-
----
-
-
-### **🤖 Analýza Vplyvu AI na Trh Práce**
-*Krátky popis tohto projektu, napr. "Táto štúdia skúma potenciálny vplyv umelej inteligencie na trh práce na Slovensku, s dôrazom na projekcie rastu alebo poklesu pracovných pozícií."*
-[Pozrieť projekt tu](cesta/k/projektu_AI/README.md)
-
-### **📈 Analýza HDP a Strednej Dĺžky Života**
+## 📈 Analýza HDP a Strednej Dĺžky Života
 
 **Cieľ:** Tento projekt sa zameriava na hĺbkovú exploráciu dynamiky vzťahu medzi hrubým domácim produktom (HDP) a strednou dĺžkou života pri narodení (LEABY) v šiestich geograficky a ekonomicky rozmanitých krajinách: Čile, Mexiko, Nemecko, USA, Čína a Zimbabwe. Analýza pokrýva obdobie od roku 2000 do roku 2015.
 
@@ -50,7 +41,7 @@ Tu nájdete prehľad mojich dátových projektov a analýz.
 * **Prípadové štúdie:** Detailný pohľad na unikátne trajektórie rozvoja (napr. rast Číny, zotavenie Zimbabwe).
 * **Použité techniky:** Python (Pandas, NumPy, Matplotlib, Seaborn), štatistické vizualizácie vrátane logaritmických škál a `FacetGrid`.
 
-**[Pozrieť celý projekt tu pre detaily a kódy](gdp_leaby_analysis/README.md)**
+**[Celý projekt nájdete tu](gdp_leaby_analysis/README.md)**
 
 ---
 * ... (ďalšie projekty) ...
