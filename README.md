@@ -29,6 +29,9 @@ Tento projekt sa zameriava na analýzu vplyvu AI a automatizácie na pracovné p
 Google colab notebook projektu. AI job market.ippymb
 *(Poznámka: Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi.)*
 
+* **Analýza HDP a Strednej Dĺžky Života:** Hĺbková analýza ekonomického rastu a kvality života v šiestich krajinách (2000-2015). **[Pozrieť projekt tu](gdp_leaby_analysis/README.md)**
+* ... (ďalšie projekty) ...
+
 ---
 
 ## Použité nástroje a knižnice 🛠️
