@@ -23,13 +23,15 @@ Každý projekt v tomto repozitári je samostatná štúdia, ktorá zvyčajne ob
 ## Prehľad projektov (Príklady) ✨
 
 Tu je zoznam aktuálnych  dátových projektov v tomto repozitári:
-
+Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi
 ## 📊 Analýza vplyvu AI a automatizácie na pracovné pozície
 
-
 Tento projekt sa zameriava na analýzu vplyvu AI a automatizácie na pracovné pozície, odvetvia a zručnosti. Identifikuje pozície, ktoré sú najviac ohrozené automatizáciou.  Použitý dataset:https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
-Google colab notebook projektu. AI job market.ippymb
-*(Poznámka: Tento zoznam budem priebežne aktualizovať s novými projektmi a ich detailmi.)*
+Google colab notebook projektu. AI job market.ippymb.
+
+Podrobnejšia analýza je uvedená v článku na Linkedin:
+
+https://www.linkedin.com/pulse/vplyv-umelej-inteligencie-ui-automatiz%C3%A1cie-na-poz%C3%ADcie-stadtruckerova-k0ife/?trackingId=84DAQvhcopQeoUP3IPnIPA%3D%3D
 
 ## 📈 Analýza HDP a Strednej Dĺžky Života
 
