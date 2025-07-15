@@ -6,6 +6,10 @@ Tento projekt  umožní preskúmať vplyv AI a automatizácie na rôzne pracovn�
 
 Cieľ projektu: Preskúmať dataset, identifikovať a vizualizovať vzťahy medzi úrovňou prijatia AI, rizikom automatizácie, potrebnými zručnosťami a rastovými projekciami pre rôzne typy pracovných pozícií a odvetví.
 
+Podrobnejšia analýza v mojom článku na sieti Linkedin.
+
+https://www.linkedin.com/pulse/vplyv-umelej-inteligencie-ui-automatiz%C3%A1cie-na-poz%C3%ADcie-stadtruckerova-k0ife/?trackingId=NbBJRCCgwxmgLWxHcDGbvw%3D%3D
+
 ## Dáta
 
 Použitý dataset
