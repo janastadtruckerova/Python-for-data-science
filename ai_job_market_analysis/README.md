@@ -58,6 +58,12 @@ Knižnice môžete nainštalovať pomocou pip:
 * Pandas (pre manipuláciu s dátami)
 * Matplotlib (pre vizualizácie)
 * Seaborn (pre pokročilé štatistické vizualizácie)
+
+### **Kontakt**
+
+Ak máte otázky, pripomienky alebo sa chcete spojiť, neváhajte ma kontaktovať cez LinkedIn.
+
+[**Môj LinkedIn profil**]https://www.linkedin.com/in/jana-stadtruckerov%C3%A1-7801779b/
   
 
 ---
