@@ -1,47 +1,60 @@
-# Analýza Globálneho Trhu Práce a Mzdových Trendov v AI (2024-2025)
+# Analýza a Predikcia Platov na Globálnom Trhu Práce v AI
 
+## Úvod
 
-Tento projekt je hĺbkovou analýzou aktuálnych a predpokladaných trendov na globálnom trhu práce v oblasti umelej inteligencie (AI), so zameraním na mzdové trendy v rokoch 2024 a 2025. Cieľom je poskytnúť cenné poznatky pre AI profesionálov, študentov, firmy a recruiterov, o  tomto dynamickom odvetví.
+Tento projekt je komplexná analýza a predikcia platov v sektore umelej inteligencie (AI), so zameraním na mzdové trendy v rokoch 2024 a 2025. Hlavným cieľom bolo nielen poskytnúť cenné poznatky o tomto dynamickom odvetví, ale aj vytvoriť prediktívny model, ktorý dokáže s vysokou presnosťou odhadnúť plat AI profesionála na základe kľúčových faktorov.
+
+Výstupom projektu je detailná analytická správa (v dvoch prepojených notebookoch) a interaktívna webová aplikácia na predikciu platov.
 
 ---
 
 ### **🚀 Ciele a Kľúčové Otázky Analýzy**
 
-Hlavným cieľom tejto analýzy bolo odpovedať na nasledujúce otázky:
+Hlavným cieľom tejto analýzy bolo odpovedať na nasledujúce otázky a následne vybudovať model:
 
 * Aké sú aktuálne mzdové trendy pre AI špecialistov naprieč rôznymi úrovňami skúseností, krajinami a typmi spoločností?
 * Ako sa líšia platy pre zamestnancov pracujúcich na diaľku (remote) v porovnaní s tými, ktorí pracujú z kancelárie?
-* Ktoré zručnosti sú momentálne najžiadanejšie a majú najväčší vplyv na potenciál zárobku v oblasti AI?
-* Ako sa vyvíja priemerná mzda v AI sektore v čase a aké sú predpoklady pre blízku budúcnosť (2024-2025)?
-* Existujú korelácie medzi mzdou a faktormi ako veľkosť spoločnosti, remote status, alebo počet benefity (benefits score)?
+* Ktoré zručnosti, pozície a lokality majú najväčší vplyv na potenciál zárobku v oblasti AI?
+* **Aký presný model vieme vybudovať na predikciu platu na základe kľúčových faktorov?**
 
 ---
 
-### **📊 Kľúčové Zistenia**
+### **📊 Kľúčové Zistenia a Výsledky**
 
-* **Skúsenosti sú dôležité:** Mzdy pre AI profesionálov exponenciálne rastú s úrovňou skúseností, pričom seniorní a exekutívni špecialisti dosahujú výrazne vyššie zárobky.
-* **Geografia hrá kľúčovú rolu:** USA, Švajčiarsko, Nórsko a Dánsko dominujú rebríčku priemerných AI miezd, čo odráža regionálne ekonomické podmienky a dopyt po talente.
-* **Veľkosť spoločnosti a plat:** Väčšie spoločnosti vo všeobecnosti ponúkajú vyššie mzdy, čo naznačuje ich schopnosť a potrebu investovať do špičkových AI talentov.
-* **Prekvapivá flexibilita:** Analýza ukázala, že remote práca v AI nemusí nutne znamenať nižší plat. Rozdiel medzi remote a on-site pozíciami bol minimálny alebo žiadny.
-* **Top zručnosti:** Programovacie jazyky (Python, R), Machine Learning, Deep Learning, Cloud platformy a správa dát sú nevyhnutné. Avšak prekvapivo, "Business Strategy" a "Soft Skills" mali významnú koreláciu s vyššími mzdami.
-* **Dynamický rast miezd:** Mzdy v AI sektore vykazujú silný rastový trend, čo svedčí o neustále rastúcom dopyte a hodnote tohto odvetvia.
+* **Skúsenosti sú dôležité:** Mzdy pre AI profesionálov exponenciálne rastú s úrovňou skúseností.
+* **Geografia hrá kľúčovú rolu:** USA, Švajčiarsko, Nórsko a Dánsko dominujú rebríčku priemerných AI miezd.
+* **Veľkosť spoločnosti a plat:** Väčšie spoločnosti vo všeobecnosti ponúkajú vyššie mzdy.
+* **Prekvapivá flexibilita:** Remote práca v AI nemusí nutne znamenať nižší plat.
+* **Výkon prediktívneho modelu:** Po implementácii modelov lineárnej regresie a Random Forest sa dosiahol robustný výsledok. Náš finálny model Random Forest dosiahol nasledujúce kľúčové metriky:
+    * **Mean Absolute Error (MAE):** približne **[Tvoja hodnota]** USD. Model v priemere odhaduje plat s chybou **[Tvoja hodnota]** USD.
+    * **R-squared ($R^2$):** približne **[Tvoja hodnota]**. Model dokáže vysvetliť **[Tvoja hodnota]%** variability v platoch.
 
 ---
 
 ### **🛠️ Použité Nástroje a Metodológia**
 
-* **Jazyk:** Python
-* **Knižnice:**
-    * `pandas`: Pre manipuláciu a analýzu dát.
-    * `matplotlib`, `seaborn`: Pre tvorbu vizualizácií.
-    * `numpy`: Pre numerické operácie.
-* **Metodológia:**
-    1.  **Zber a načítanie dát:** Využitie verejne dostupného datasetu z platformy Kaggle (podrobnosti nižšie).
-    2.  **Čistenie a predbežná úprava dát:** Riešenie chýbajúcich hodnôt, úprava formátov, premapovanie kategorických premenných.
-    3.  **Exploratórna dátová analýza (EDA):** Identifikácia vzorov, trendov a anomálií v dátach.
-    4.  **Detailná analýza:** Skúmanie vzťahov medzi premennými (korelácia), porovnávanie skupín.
-    5.  **Vizualizácia dát:** Tvorba grafov pre jasnú prezentáciu zistení.
-    6.  **Interpretácia a závery:** Vyvodenie poznatkov s priamymi dopadmi pre profesionálov a firmy.
+Projekt bol rozdelený do dvoch hlavných fáz, z ktorých každá je podrobne opísaná v samostatnom Jupyter Notebooku.
+
+1.  **Analýza a prieskumná analýza dát (EDA):**
+    * Tento proces je detailne zachytený v notebooku **[notebook_analýza.ipynb]**.
+    * **Zber a načítanie dát:** Využitie verejne dostupného datasetu z Kaggle.
+    * **Čistenie a predbežná úprava dát:** Riešenie chýbajúcich hodnôt a premapovanie kategorických premenných.
+    * **Vizualizácia dát:** Tvorba grafov pre jasnú prezentáciu zistení.
+
+2.  **Modelovanie a nasadenie:**
+    * Tento proces je opísaný v notebooku **[notebook_modelovanie.ipynb]**, ktorý nadväzuje na zistenia z EDA.
+    * **Predspracovanie dát:** Príprava dát pre model, vrátane **One-Hot Encodingu** kategorických premenných.
+    * **Trénovanie modelov:** Porovnanie jednoduchého modelu **Lineárnej Regresie** s výkonným **Random Forest Regressorom**.
+    * **Hodnotenie modelov:** Vyhodnotenie výkonu modelov pomocou metrík MAE, MSE a $R^2$.
+    * **Nasadenie modelu:** Nasadenie finálneho modelu do jednoduchej interaktívnej aplikácie pomocou knižnice Gradio.
+
+---
+
+### **🚀 Aplikácia na predikciu platu**
+
+Súčasťou projektu je interaktívna aplikácia postavená na Gradio, ktorá umožňuje na základe vybraných parametrov predpovedať plat. Môžete si ju spustiť lokálne pomocou `app.py`.
+
+[Vlož sem screenshot tvojej Gradio aplikácie]
 
 ---
 
@@ -49,21 +62,28 @@ Hlavným cieľom tejto analýzy bolo odpovedať na nasledujúce otázky:
 
 Pre túto analýzu bol použitý dataset "AI Job Market & Salary Trends 2024-2025" z platformy Kaggle.
 * **Zdroj:** https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025
-   
-
-### **📝 Pozrite si celú analýzu a ďalšie postrehy**
-
-Pre podrobný rozbor, všetky grafy a kompletné závery, navštívte môj LinkedIn článok, kde som prezentoval túto analýzu:
-
-[**Prejsť na LinkedIn článok (anglicky)**](VLOŽTE_ODKAZ_NA_TVOJ_ANGLICKY_LINKEDIN_CLANOK_TU)
-
----
+   
 
 ### **🔗 Obsah Repozitára**
 
-* `Global_AI_Job_Market_Salaries_2024_2025_Analysis.ipynb`: Jupyter/Google Colab Notebook obsahujúci kompletný kód a analýzu.
-* `ai_salaries_2025.csv`: Vstupný dataset použitý pre analýzu.
-* `visualisations/` (voliteľné): Priečinok s exportovanými grafmi použitými LinkedIn článku.
+* `notebook_analýza.ipynb`: Detailná prieskumná analýza dát.
+* `notebook_modelovanie.ipynb`: Kompletný proces predspracovania, modelovania, hodnotenia a nasadenia.
+* `app.py`: Python skript pre Gradio aplikáciu.
+* `trained_model.pkl`: Uložený finálny model.
+* `ai_salaries_2025.csv`: Vstupný dataset.
+* `README.md`: Tento súbor.
+
+---
+
+### **💻 Použité Knižnice (závislosti)**
+
+-   Python
+-   `pandas`
+-   `numpy`
+-   `matplotlib` / `seaborn`
+-   `scikit-learn`
+-   `gradio`
+-   `joblib` (na uloženie modelu)
 
 ---
 
@@ -72,5 +92,4 @@ Pre podrobný rozbor, všetky grafy a kompletné závery, navštívte môj Linke
 Ak máte otázky, pripomienky alebo sa chcete spojiť, neváhajte ma kontaktovať cez LinkedIn.
 
 [**Môj LinkedIn profil**]https://www.linkedin.com/in/jana-stadtruckerov%C3%A1-7801779b/
-
 ---
