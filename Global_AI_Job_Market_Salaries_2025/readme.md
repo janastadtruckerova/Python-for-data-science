@@ -26,8 +26,8 @@ Hlavným cieľom tejto analýzy bolo odpovedať na nasledujúce otázky a násle
 * **Veľkosť spoločnosti a plat:** Väčšie spoločnosti vo všeobecnosti ponúkajú vyššie mzdy.
 * **Prekvapivá flexibilita:** Remote práca v AI nemusí nutne znamenať nižší plat.
 * **Výkon prediktívneho modelu:** Po implementácii modelov lineárnej regresie a Random Forest sa dosiahol robustný výsledok. Náš finálny model Random Forest dosiahol nasledujúce kľúčové metriky:
-    * **Mean Absolute Error (MAE):** približne **[Tvoja hodnota]** USD. Model v priemere odhaduje plat s chybou **[Tvoja hodnota]** USD.
-    * **R-squared ($R^2$):** približne **[Tvoja hodnota]**. Model dokáže vysvetliť **[Tvoja hodnota]%** variability v platoch.
+    * -   **Mean Absolute Error (MAE):** približne **16,142 USD**. Model v priemere odhaduje plat s chybou **16,142 USD**.
+-   **R-squared ($R^2$):** približne **0.8537**. Model dokáže vysvetliť **85.37%** variability v platoch.
 
 ---
 
@@ -36,13 +36,13 @@ Hlavným cieľom tejto analýzy bolo odpovedať na nasledujúce otázky a násle
 Projekt bol rozdelený do dvoch hlavných fáz, z ktorých každá je podrobne opísaná v samostatnom Jupyter Notebooku.
 
 1.  **Analýza a prieskumná analýza dát (EDA):**
-    * Tento proces je detailne zachytený v notebooku **[notebook_analýza.ipynb]**.
+    * Tento proces je detailne zachytený v notebooku **[Global AI job market]**.
     * **Zber a načítanie dát:** Využitie verejne dostupného datasetu z Kaggle.
     * **Čistenie a predbežná úprava dát:** Riešenie chýbajúcich hodnôt a premapovanie kategorických premenných.
     * **Vizualizácia dát:** Tvorba grafov pre jasnú prezentáciu zistení.
 
 2.  **Modelovanie a nasadenie:**
-    * Tento proces je opísaný v notebooku **[notebook_modelovanie.ipynb]**, ktorý nadväzuje na zistenia z EDA.
+    * Tento proces je opísaný v notebooku **[prediction AI job salary 2025]**, ktorý nadväzuje na zistenia z EDA.
     * **Predspracovanie dát:** Príprava dát pre model, vrátane **One-Hot Encodingu** kategorických premenných.
     * **Trénovanie modelov:** Porovnanie jednoduchého modelu **Lineárnej Regresie** s výkonným **Random Forest Regressorom**.
     * **Hodnotenie modelov:** Vyhodnotenie výkonu modelov pomocou metrík MAE, MSE a $R^2$.
@@ -54,7 +54,6 @@ Projekt bol rozdelený do dvoch hlavných fáz, z ktorých každá je podrobne o
 
 Súčasťou projektu je interaktívna aplikácia postavená na Gradio, ktorá umožňuje na základe vybraných parametrov predpovedať plat. Môžete si ju spustiť lokálne pomocou `app.py`.
 
-[Vlož sem screenshot tvojej Gradio aplikácie]
 
 ---
 
