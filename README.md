@@ -45,8 +45,10 @@ https://www.linkedin.com/pulse/vplyv-umelej-inteligencie-ui-automatiz%C3%A1cie-n
 
 **[Celý projekt nájdete tu](gdp_leaby_analysis/README.md)**
 
----
-* ... (ďalšie projekty) ...
+### **1. Logistická Regresia - Klasifikácia rakoviny prsníka**
+* **Cieľ:** Vytvoriť model, ktorý s vysokou presnosťou predpovedá, či je nádor zhubný alebo nezhubný.
+* **Použité metódy:** Prieskumná analýza dát (EDA), Logistická Regresia, vyhodnotenie metrikami (Confusion Matrix, Recall), overenie stability pomocou krížovej validácie.
+* **Súbor:** [Logistická regresia.ipynb](https://github.com/Tvoje_Meno/Python-for-datascience/blob/main/Logistická%20regresia.ipynb)(ďalšie projekty) ...
 
 ---
 
