@@ -45,14 +45,24 @@ https://www.linkedin.com/pulse/vplyv-umelej-inteligencie-ui-automatiz%C3%A1cie-n
 
 **[Celý projekt nájdete tu](gdp_leaby_analysis/README.md)**
 
-### **1. Logistická Regresia - Klasifikácia rakoviny prsníka**
+### ** Logistická Regresia - Klasifikácia rakoviny prsníka**
 * **Cieľ:** Vytvoriť model, ktorý s vysokou presnosťou predpovedá, či je nádor zhubný alebo nezhubný.
 * **Použité metódy:** Prieskumná analýza dát (EDA), Logistická Regresia, vyhodnotenie metrikami (Confusion Matrix, Recall), overenie stability pomocou krížovej validácie.
-* **Súbor:** [Logistická regresia.ipynb](https://github.com/Tvoje_Meno/Python-for-datascience/blob/main/Logistická%20regresia.ipynb)(ďalšie projekty) ...
+* **Súbor:** [Logistická regresia.ipynb](https://github.com/Tvoje_Meno/Python-for-datascience/blob/main/Logistická%20regresia.ipynb)
 
----
+### ** Predikcia COVID 19 pomocov modelov ARIMA a LTMS**
+* **Cieľ:** Tento projekt predstavuje porovnávaciu analýzu a predikciu denných prípadov COVID-19 na Slovensku s využitím dvoch odlišných prístupov: klasického štatistického modelu **ARIMA** a pokročilej neurónovej siete **LSTM**.
+Cieľom projektu bolo nielen predpovedať budúci vývoj, ale aj demonštrovať schopnosti oboch modelov pri práci s časovými radmi a vyhodnotiť ich presnosť na základe reálnych dát.
+* **Použité metódy:** 
+* **Súbor:** https://github.com/janastadtruckerova/Python-for-data-science/tree/main/predikcia%20COVID%2019(ďalšie projekty) ...
 
 ## Použité nástroje a knižnice 🛠️
+* **Jazyk:** Python 3.x
+* **Dátová analýza a spracovanie:** `pandas`, `numpy`, `scikit-learn`
+* **Štatistické modelovanie:** `statsmodels`
+* **Hlboké učenie (Deep Learning):** `tensorflow`, `keras`
+* **Vizualizácia:** `matplotlib`, `seaborn`
+
 
 V týchto projektoch sa primárne využívajú nasledujúce nástroje a knižnice:
 
